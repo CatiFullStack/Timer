@@ -1,0 +1,91 @@
+@charset "utf-8";
+  @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@600&display=swap');
+
+  html {
+    margin: 0;
+  }
+
+  * {
+     margin: 0;
+     padding: 0;
+     font-family: Open Sans;
+  }
+
+  body {
+    background: #F6F6F6;
+    color: rgba(30, 30, 30, 0.657);
+  }
+
+  header h2 {
+    margin: 20px;
+    font-size: 30px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .img-container img {
+    padding-left: 10px;
+      width: 500px;
+      filter: grayscale(100);
+      margin-top: -70px;
+  }
+  
+  .h1 {
+    text-align: center;
+      font-size: 30px;
+      color: rgba(241, 99, 234, 0.425);
+  }
+
+  .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer {
+    text-align: center;
+  }
+
+  .timer p {
+    margin-top: 0;;
+    font-size: 80px;
+  }
+
+
+.timer button {
+  background-color: rgb(54, 54, 54);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.texto-parallax {
+  display: flex;
+  justify-content: center;
+  background: #f6f6f6;
+  margin: 0;
+}
+
+.texto-parallax h3 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.img-parallax {
+  background: #1A191E;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.img-parallax img {
+  width: 300px;
+  filter: grayscale(100);
+  filter: opacity(.3);
+}
